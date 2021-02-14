@@ -1,6 +1,8 @@
-
+*{
+    box-sizing: border-box;
+}
 .header{
-    background-image: url(img.jpg);
+    background-color: white ;
     background-size: cover;
     
 }
@@ -15,19 +17,7 @@
     z-index: 1;
     }
 
-/*
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-*/
 
-/*
-.sticky + .col-second {
-    padding: 10px;
-}
-*/
 .topnav-cus a{
     text-align: center;
     color: yellow;
@@ -62,11 +52,7 @@
     
      
     
-    .gif{
-        margin-left:  10px;;
-        padding: 0;
-        margin: 0;
-        
+    
     }
     .col-second{
         max-width: 100%;
@@ -89,19 +75,7 @@
 }
 
 
-/*
-.image{
-    
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 35px;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    
-}
-*/
+
 
 .content{
     
@@ -111,40 +85,18 @@
     margin-right: auto;
     text-align: center;
 }
-/*
-.left-star{
-    position: absolute;
-    float: left;
-    width: 180px;
-    
-    
-}
 
-.right-star{
-    
-    float: right;
-    width: 180px;
-    
-}
-*/
-.gif{
-    margin-left: 400px;
-    width: 350px;
-    height: 300px;
-
-    
-} 
 
 .Name{
     font-family: Fondamento;
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
-    color: darkgoldenrod;
-    background-color: azure;
+    color: black;
     width: auto;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
     
 }
 
@@ -172,26 +124,7 @@
     background-color: white;
 }
 
-#python{
-    width: 400px;
-    height: 400px;
-}
-#js{
-    height: 400px;
-}
-#html{
-    height: 400px;
-}
-#css{
-    height: 400px;
-}
-#node{
-    height: 400px;
-}
-#php{
-    height: 400px;
-    
-}
+
 
 .login{
     
@@ -205,9 +138,6 @@ h2{
     font-size: 40px;
 }
 
-.container{
-    margin-top: 30px;
-  }
 
 .course{
     background-color: black;
@@ -221,7 +151,7 @@ h2{
 }
 
 .second-card{
-    background-color: chocolate;
+    background-color: lightblue;
     
     
 }
@@ -251,19 +181,6 @@ button:hover{
     color: aliceblue;
     background-color: red;
 }
-/*.right {
-    
-    float: ;
-    width: 540px;
-    height: 250px;
-    vertical-align: middle;
-    
-    
-}
-
-.col-second{
-    width: 50%;
-}*/
 
 
 
