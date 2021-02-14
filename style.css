@@ -1,0 +1,270 @@
+
+.header{
+    background-image: url(img.jpg);
+    background-size: cover;
+    
+}
+.topnav-cus{
+    width: 100%;
+    background-color: black;
+    margin-top: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    }
+
+/*
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+*/
+
+/*
+.sticky + .col-second {
+    padding: 10px;
+}
+*/
+.topnav-cus a{
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 14px 16px;
+    margin: 5px;
+    top: 0;
+    float: left;
+    text-decoration: none;
+    
+}
+
+.topnav-cus a:hover{
+    background-color: floralwhite;
+    color: dodgerblue;
+    
+}
+@media only screen and (max-width: 600px){
+    .topnav-cus{
+        position: fixed;
+        width: 100%;
+        overflow: hidden;
+    }   
+    
+    .topnav-cus a{
+         display: flex;
+        font-size: 17px;
+        padding: 15px 8px 8px 8px;
+        margin: auto auto auto auto;
+    }
+    
+     
+    
+    .gif{
+        margin-left:  10px;;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .col-second{
+        max-width: 100%;
+        
+    }
+    
+    .Name{
+       font-size: 20px;
+    padding: 0;
+    }
+    
+    
+
+
+    .carousel{
+        width: 400px;
+    }
+   
+    
+}
+
+
+/*
+.image{
+    
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 35px;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    
+}
+*/
+
+.content{
+    
+    font-family: fantasy;
+    font-display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*
+.left-star{
+    position: absolute;
+    float: left;
+    width: 180px;
+    
+    
+}
+
+.right-star{
+    
+    float: right;
+    width: 180px;
+    
+}
+*/
+.gif{
+    margin-left: 400px;
+    width: 350px;
+    height: 300px;
+
+    
+} 
+
+.Name{
+    font-family: Fondamento;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: darkgoldenrod;
+    background-color: azure;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.qoute{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-family: Anton;
+    color: burlywood;
+}
+
+.carousel{
+    
+    width: 500px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    
+
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+#python{
+    width: 400px;
+    height: 400px;
+}
+#js{
+    height: 400px;
+}
+#html{
+    height: 400px;
+}
+#css{
+    height: 400px;
+}
+#node{
+    height: 400px;
+}
+#php{
+    height: 400px;
+    
+}
+
+.login{
+    
+    float: right;
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.container{
+    margin-top: 30px;
+  }
+
+.course{
+    background-color: black;
+    height: 550px;
+}
+
+.first-card{
+    
+    background-color: lightblue;
+    margin-top: 0;
+}
+
+.second-card{
+    background-color: chocolate;
+    
+    
+}
+
+.kshitij{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+.contact{
+    
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.submit{
+    color: yellow;
+    background-color: black;
+    font-size: 20px; 
+    font-weight: bolder;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: red;
+}
+/*.right {
+    
+    float: ;
+    width: 540px;
+    height: 250px;
+    vertical-align: middle;
+    
+    
+}
+
+.col-second{
+    width: 50%;
+}*/
+
+
+
+
